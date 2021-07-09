@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
+
+h1 {
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  color: #010128;
+}
+
+.namePun {
+  color: #a594f9;
+}
