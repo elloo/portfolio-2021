@@ -1,8 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/****** HEADER ******/
+
+header {
+  height: 95vh;
+}
+
 h1 {
   text-align: center;
   font-family: 'Bebas Neue', cursive;
+  color: #f5efff;
 }
 
 p {
@@ -13,4 +29,30 @@ p {
 
 .namePun {
   color: #a594f9;
+}
+
+/****** NAV ******/
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-family: 'Bebas Neue', cursive;
+  background-color: #7371fc;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul a,
+nav ul a:visited {
+  text-decoration: none;
+  color: #cdc1ff;
+}
+
+/****** MAIN ******/
+
+main {
+  height: 100vh;
 }
