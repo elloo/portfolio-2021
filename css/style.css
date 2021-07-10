@@ -28,6 +28,10 @@ h2 {
   text-decoration-color: #f5efff;
 }
 
+h3 {
+  color: #010128;
+}
+
 p,
 figcaption {
   font-family: 'Roboto', sans-serif;
