@@ -22,7 +22,6 @@ h2 {
   display: block;
   position: relative;
   color: #a594f9;
-  top: 6vh;
 }
 
 p,
@@ -36,10 +35,14 @@ figcaption {
   color: #a594f9;
 }
 
+#portfolio h2 {
+  top: 8vh;
+}
+
 /****** HEADER ******/
 
 header {
-  height: 80vh;
+  height: 77vh;
 }
 
 /****** NAV ******/
@@ -48,6 +51,8 @@ nav {
   position: sticky;
   top: 0;
   z-index: 2;
+  border-top: solid 1vh #f5efff;
+  border-bottom: dashed 1vh #f5efff;
 }
 
 nav ul {
@@ -78,18 +83,38 @@ nav ul a:hover {
 
 /****** ABOUT ******/
 
-section {
+#about {
   height: 100vh;
+  position: relative;
 }
 
 #about img {
-  position: relative;
-  left: 17.5%;
-  height: 25%;
+  position: absolute;
+  left: 10%;
+  top: 30%;
+  height: 45%;
   width: 25%;
   border-radius: 50%;
   border: solid 10px #7371fc;
-  display: inline-block;
+  display: inline;
+}
+
+#about figcaption {
+  position: absolute;
+  width: 50vw;
+  left: 40%;
+  top: 40%;
 }
 
 /****** PORTFOLIO ******/
+
+#portfolio {
+  height: 100vh;
+}
+
+/****** CONTACT ******/
+
+footer {
+  background-color: #7371fc;
+  height: 50vh;
+}
