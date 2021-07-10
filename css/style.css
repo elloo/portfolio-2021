@@ -9,11 +9,7 @@ html {
   scroll-behavior: smooth;
 }
 
-/****** HEADER + HEADINGS ******/
-
-header {
-  height: 80vh;
-}
+/****** TYPOGRAPHY ******/
 
 h1,
 h2 {
@@ -23,11 +19,14 @@ h2 {
 }
 
 h2 {
+  display: block;
   position: relative;
+  color: #a594f9;
   top: 6vh;
 }
 
-p {
+p,
+figcaption {
   font-family: 'Roboto', sans-serif;
   text-align: center;
   color: #010128;
@@ -35,6 +34,12 @@ p {
 
 .namePun {
   color: #a594f9;
+}
+
+/****** HEADER ******/
+
+header {
+  height: 80vh;
 }
 
 /****** NAV ******/
@@ -71,14 +76,20 @@ nav ul a:hover {
   color: #f5efff;
 }
 
-/****** MAIN ******/
-
-main {
-  height: 100vh;
-}
-
 /****** ABOUT ******/
 
 section {
   height: 100vh;
 }
+
+#about img {
+  position: relative;
+  left: 17.5%;
+  height: 25%;
+  width: 25%;
+  border-radius: 50%;
+  border: solid 10px #7371fc;
+  display: inline-block;
+}
+
+/****** PORTFOLIO ******/
