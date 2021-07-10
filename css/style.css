@@ -13,7 +13,8 @@ html {
 /****** TYPOGRAPHY ******/
 
 h1,
-h2 {
+h2,
+h3 {
   text-align: center;
   font-family: 'Bebas Neue', cursive;
   color: #f5efff;
@@ -106,10 +107,6 @@ nav ul a:hover {
   position: absolute;
   left: 40%;
   top: 40%;
-}
-
-#about figcaption {
-  padding: 5px;
   width: 50vw;
 }
 
@@ -119,21 +116,17 @@ nav ul a:hover {
   min-height: 100vh;
 }
 
-#portfolioItem {
-  position: relative;
-  display: block;
-  top: 50px;
-  width: 90vw;
+.portfolioItem {
+  display: flex;
+  justify-content: space-around;
 }
 
-#portfolioItem figure {
-  display: inline-block;
-  width: 66%;
+.portfolioItem figure {
+  flex: 40%;
 }
 
-#portfolioItem figcaption {
-  display: inline-block;
-  width: 33%;
+.portfolioText {
+  flex: 60%;
 }
 
 /****** CONTACT ******/
