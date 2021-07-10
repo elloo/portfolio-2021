@@ -75,7 +75,6 @@ nav ul li {
   display: inline-block;
   text-align: center;
   width: 33%;
-  padding: 0.5% 0;
 }
 
 nav ul a,
@@ -103,7 +102,7 @@ nav ul a:hover {
   height: 45%;
   width: 25%;
   border-top: solid 10px #7371fc;
-  border-bottom: solid 10px #7371fc;
+  border-bottom: dashed 10px #7371fc;
   display: inline;
 }
 
@@ -135,9 +134,18 @@ nav ul a:hover {
   flex: 40%;
 }
 
+.portfolioImage {
+  border-top: solid 10px #7371fc;
+  border-bottom: dashed 10px #7371fc;
+}
+
 .portfolioText {
   flex: 60%;
   padding-right: 1vw;
+}
+
+.portfolioText h3 {
+  padding-top: 5.5vw;
 }
 
 /****** CONTACT ******/
