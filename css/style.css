@@ -116,9 +116,15 @@ nav ul a:hover {
   min-height: 100vh;
 }
 
+#portfolio h2 {
+  display: block;
+}
+
 .portfolioItem {
   display: flex;
   justify-content: space-around;
+  padding: 0 10vw;
+  margin-top: 7.5%;
 }
 
 .portfolioItem figure {
@@ -127,6 +133,7 @@ nav ul a:hover {
 
 .portfolioText {
   flex: 60%;
+  padding-right: 1vw;
 }
 
 /****** CONTACT ******/
