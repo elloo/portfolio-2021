@@ -7,6 +7,7 @@
 
 html {
   scroll-behavior: smooth;
+  position: relative;
 }
 
 /****** TYPOGRAPHY ******/
@@ -22,6 +23,8 @@ h2 {
   display: block;
   position: relative;
   color: #a594f9;
+  text-decoration: underline overline;
+  text-decoration-color: #f5efff;
 }
 
 p,
@@ -36,7 +39,7 @@ figcaption {
 }
 
 #portfolio h2 {
-  top: 8vh;
+  top: 10vh;
 }
 
 /****** HEADER ******/
@@ -94,27 +97,68 @@ nav ul a:hover {
   top: 30%;
   height: 45%;
   width: 25%;
-  border-radius: 50%;
-  border: solid 10px #7371fc;
+  border-top: solid 10px #7371fc;
+  border-bottom: solid 10px #7371fc;
   display: inline;
 }
 
-#about figcaption {
+#aboutText {
   position: absolute;
-  width: 50vw;
   left: 40%;
   top: 40%;
+}
+
+#about figcaption {
+  padding: 5px;
+  width: 50vw;
 }
 
 /****** PORTFOLIO ******/
 
 #portfolio {
-  height: 100vh;
+  min-height: 100vh;
+}
+
+#portfolioItem {
+  position: relative;
+  display: block;
+  top: 50px;
+  width: 90vw;
+}
+
+#portfolioItem figure {
+  display: inline-block;
+  width: 66%;
+}
+
+#portfolioItem figcaption {
+  display: inline-block;
+  width: 33%;
 }
 
 /****** CONTACT ******/
 
 footer {
   background-color: #7371fc;
-  height: 50vh;
+  border-top: dashed #f5efff 1vh;
+  height: 7vh;
+  padding: 1%;
+}
+
+i {
+  font-size: 50px;
+  color: #cdc1ff;
+}
+
+i:hover {
+  color: #f5efff;
+}
+
+/* ***** BACK TO TOP ******/
+
+#toTop i {
+  position: relative;
+  bottom: 10%;
+  left: 97%;
+  z-index: 2;
 }
